@@ -1,4 +1,5 @@
-import { memo } from "react";
+// TODO: ほう、コンポーネント作る時はmemoを設定するのが普通なの？memoで囲ったコンポーネントは、どんな時にサイレンダリングされるのでしょうか？
+import { memo } from "react"; //親コンポーネントがサイレンダリングされても、このコンポーネントはいつサイレンダリングされるの？
 import { Handle, type NodeProps, Position } from "@xyflow/react";
 import { cn } from "@/lib/utils";
 
