@@ -1,4 +1,5 @@
 // TODO: ほう、コンポーネント作る時はmemoを設定するのが普通なの？memoで囲ったコンポーネントは、どんな時にサイレンダリングされるのでしょうか？
+// 例えばなんですが、再描画するのが重い時には使ったほうがいい。useMemoかmemoで関数をメモを使うようにする。
 import { memo } from "react"; //親コンポーネントがサイレンダリングされても、このコンポーネントはいつサイレンダリングされるの？
 import { Handle, type NodeProps, Position } from "@xyflow/react";
 import { cn } from "@/lib/utils";
